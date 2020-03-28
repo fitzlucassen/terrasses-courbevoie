@@ -1,0 +1,371 @@
+header {
+  height: 70px;
+  box-shadow: 0px 0px 3px $fontColor;
+  position: fixed;
+  width: 100%;
+  z-index: 101;
+
+  * {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  nav {
+    ul {
+      list-style: none;
+
+      li {
+        a {
+          display: block;
+          padding: 25px;
+          height: 20px;
+          font-size: 12px;
+          line-height: 21px;
+
+          @include transition(all, 0.2s, linear);
+
+          &.active,
+          &:hover {
+            color: $hoverColor;
+          }
+        }
+      }
+    }
+  }
+
+  .logo {
+    height: 60px;
+    padding: 5px 0 0 20px;
+  }
+  #other-logo {
+    float: right;
+    margin-right: 20px;
+
+    a {
+      display: inline-block;
+      padding: 0 20px;
+    }
+    span.separator {
+      display: inline-block;
+      width: 1px;
+      background-color: $stratSecondBackgroundColor;
+      height: 40px;
+      vertical-align: middle;
+    }
+  }
+}
+footer {
+  height: 140px;
+  position: relative;
+
+  & > div {
+    background-color: $menuFooterColor;
+    z-index: 99;
+  }
+
+  .footer-container {
+    position: relative;
+    top: -50px;
+    z-index: 100;
+    width: 40%;
+    margin: auto;
+
+    p.titleFooter {
+      font-family: $fontContent;
+      font-size: 14px;
+    }
+
+    .footer-logo {
+      width: 15%;
+      margin: 0 5%;
+      display: inline-block;
+
+      img {
+        height: 60px;
+      }
+
+      &.with-border {
+        padding: 0 5%;
+        border-left: 1px solid $stratFirstBackgroundColor;
+        border-right: 1px solid $stratFirstBackgroundColor;
+      }
+    }
+  }
+}
+header,
+footer {
+  background-color: $menuFooterColor;
+  color: $secondFontColor;
+
+  p,
+  a {
+    color: white;
+  }
+}
+
+#carousel-strat {
+  background: transparent url(/Website/Content/Media/Image/terrasses_5bis_02.png) center 70px no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .carousel-center-element {
+    text-align: center;
+    position: relative;
+    padding: 7%;
+
+    h1 {
+      font-weight: normal;
+      font-family: $fontContent;
+      color: $stratSecondBackgroundColor;
+      font-size: 30px;
+      padding: 2%;
+    }
+  }
+
+  .logo-presentation {
+    display: block;
+    margin: auto;
+  }
+}
+
+#presentation-strat {
+  position: relative;
+
+  & > div {
+    background-color: $stratFirstBackgroundColor;
+    z-index: 99;
+  }
+
+  .presentation-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 5%;
+    z-index: 100;
+    width: 39%;
+  }
+
+  .presentation-image {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 100;
+    padding: 0 5%;
+
+    .presentation-decoration {
+      background: $menuFooterColor;
+      margin: 0 auto;
+
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+        height: 20px;
+      }
+    }
+    img {
+      width: calc(100% + 100px);
+      height: 90%;
+      transform: translateX(-50px);
+    }
+  }
+}
+#place-strat {
+  background: transparent url(/Website/Content/Media/Image/terrasses_5bis_20.png) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .band {
+    background: white;
+    padding: 0 3%;
+    width: 19%;
+    margin-left: 5%;
+    height: 100%;
+    text-align: center;
+  }
+}
+#menu-strat {
+  ul {
+    margin: auto;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 30px;
+      font-size: 26px;
+      font-weight: normal;
+      color: $secondFontColor;
+      cursor: pointer;
+
+      &.active {
+        font-weight: bold;
+        color: $fontColor;
+        text-decoration: underline;
+      }
+    }
+  }
+  .menu-meals {
+    margin-top: 2%;
+  }
+  .meal-left,
+  .meal-right {
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    margin: 1% 2%;
+    font-family: $fontContent;
+    text-transform: uppercase;
+  }
+}
+#form-strat {
+  background: $stratSecondBackgroundColor;
+
+  .form-decoration {
+    position: absolute;
+    top: -100px;
+    right: 5%;
+    height: 500px;
+    width: 50px;
+    background: $menuFooterColor;
+
+    .first-img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) translateX(-60%);
+      width: 150px;
+      height: 150px;
+    }
+    .second-img {
+      position: absolute;
+      bottom: 50px;
+      left: -20px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .left-column,
+  .right-column {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 48%;
+  }
+  .left-column {
+    margin-right: 2%;
+  }
+  .right-column {
+    margin-left: 2%;
+    height: 100%;
+  }
+  form {
+    width: 80%;
+    margin: 2% auto 0 auto;
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    textarea {
+      display: block;
+      width: calc(100% - 31px);
+      border-radius: 2px;
+      padding: 10px;
+      border: 1px solid gray;
+      margin: 10px;
+    }
+    textarea {
+      height: calc(100% - 41px);
+    }
+    .civility {
+      padding-left: 10px;
+      text-align: left;
+
+      input,
+      label {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      label {
+        margin: 0 20px 0 10px;
+        color: $secondFontColor;
+      }
+    }
+  }
+}
+#group-strat {
+  height: calc(100% + 350px);
+}
+#form-strat {
+  height: calc(100% + 105px);
+}
+
+#legal-container {
+  h1,
+  h2 {
+    margin: 5% 0;
+    font-family: $fontContent;
+    font-size: 32px;
+  }
+  p {
+    line-height: 24px;
+    font-family: $fontTitle;
+  }
+}
+.left-column,
+.right-column {
+  display: inline-block;
+  vertical-align: bottom;
+  width: 48%;
+}
+.left-column {
+  margin-right: 2%;
+}
+.right-column {
+  margin-left: 2%;
+  height: 100%;
+}
+
+#about-container {
+  #team-strat {
+    background: $stratSecondBackgroundColor;
+  }
+
+  h1 {
+    font-family: $fontContent;
+    font-weight: normal;
+    font-size: 34px;
+    margin: 5% 0;
+  }
+
+  .left-column {
+    display: inline-block;
+    vertical-align: middle;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+
+    p {
+      line-height: 24px;
+    }
+  }
+  .right-column {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+
+    img {
+      display: block;
+      margin: auto;
+      width: 60%;
+    }
+
+    p {
+      line-height: 24px;
+    }
+  }
+}

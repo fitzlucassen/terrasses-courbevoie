@@ -1,0 +1,172 @@
+* {
+  font-family: $fontTitle;
+}
+
+.strat {
+  background-color: $stratFirstBackgroundColor;
+  color: $fontColor;
+  min-height: calc(100% - 70px);
+  width: 100%;
+
+  &.beige {
+    background-color: $stratSecondBackgroundColor;
+  }
+
+  .strat-container {
+    padding: 5%;
+  }
+
+  p {
+    font-size: 14px;
+    color: $secondFontColor;
+    line-height: 24px;
+  }
+}
+
+p.button a,
+input.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: $buttonColor;
+  color: white;
+  font-family: $fontContent;
+  border: none;
+}
+div.round {
+  position: absolute;
+  top: -125px;
+  width: 100%;
+  height: 250px;
+  clip-path: ellipse(51% 51% at 50% 60%);
+}
+
+h3.ariane-title {
+  font-family: $fontTitle;
+  color: $menuFooterColor;
+  padding: 2% 0;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+h2.section-title {
+  font-family: $fontContent;
+  font-size: 36px;
+  margin-bottom: 5%;
+}
+p.more {
+  margin-top: 5%;
+
+  & > a {
+    border-bottom: 1px solid $fontColor;
+    color: $fontColor;
+    padding-bottom: 5px;
+  }
+}
+
+p.tooltip {
+  width: 100%;
+  display: block;
+  padding: 20px;
+  font-family: $fontContent;
+  color: #fff;
+  box-shadow: 0 0 1px $fontContent;
+  text-align: center;
+
+  &.tooltip-error {
+    background: #f44336;
+  }
+  &.tooltip-success {
+    background: #4caf50;
+  }
+}
+
+p.mentions {
+  font-size: 12px;
+  margin-top: 2%;
+
+  a {
+    color: $hoverColor;
+    text-decoration: underline;
+  }
+}
+
+.linea {
+  display: block;
+  width: 1px;
+  height: 70px;
+  margin: 0 auto 5% auto;
+  background: $menuFooterColor;
+}
+.card {
+  position: relative;
+  display: block;
+  width: 90%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  z-index: 3;
+
+  &.cocktailcocktail {
+    float: right;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 100%;
+      position: absolute;
+      left: -40px;
+      top: -50px;
+      background: $menuFooterColor;
+      z-index: 2;
+    }
+
+    img {
+      height: 300px;
+      z-index: 3;
+      position: relative;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+  &.metstendances {
+    float: left;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 50px;
+      height: 100%;
+      position: absolute;
+      right: -40px;
+      bottom: -50px;
+      background: $menuFooterColor;
+      z-index: 2;
+    }
+
+    .card-img {
+      text-align: right;
+      img {
+        height: 300px;
+        z-index: 3;
+        position: relative;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+
+  .card-img {
+    width: 50%;
+    height: 300px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .card-text {
+    width: 40%;
+    padding: 5%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}

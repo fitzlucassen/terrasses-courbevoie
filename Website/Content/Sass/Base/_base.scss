@@ -1,0 +1,56 @@
+/* FONT FAMILY LINKAGE */
+@font-face {
+    font-family: 'latobold';
+    src: url('Font/lato/lato-bold-webfont.woff2') format('woff2'),
+         url('Font/lato/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'lustriaregular';
+    src: url('Font/lustria/lustria-regular-webfont.woff2') format('woff2'),
+         url('Font/lustria/lustria-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* UTILITIES CLASSES */
+.fLeft{float: left;display:block;}
+.fRight{float:right;display:block;}
+.tAlignCenter{text-align:center;}
+.cl{clear:both;display: block;}
+.vAlignCenter{vertical-align:middle;}
+
+/* LAYOUT */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+#global{
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
+
+.title{
+    color: #111;
+    font-size: 22px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+.subtitle{
+    color: #111;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: normal;
+}
+
+.contenu{
+    color: #444;
+    font-size: 14px;
+    font-family: 'georgia';
+}
