@@ -176,6 +176,7 @@ footer {
   background: transparent url(/Website/Content/Media/Image/terrasses_5bis_20.png) center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 
   .band {
     background: white;
@@ -184,6 +185,7 @@ footer {
     margin-left: 5%;
     height: 100%;
     text-align: center;
+    position: absolute;
   }
 }
 #menu-strat {
@@ -218,6 +220,40 @@ footer {
     margin: 1% 2%;
     font-family: $fontContent;
     text-transform: uppercase;
+  }
+}
+#event-strat {
+  background: $stratSecondBackgroundColor;
+
+  .event-card{
+    display: inline-block;
+    width: calc(31% - 20px);
+    margin: 2% 1%;
+    background: $menuFooterColor;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 3px;
+    vertical-align: middle;
+
+    .event-title{
+      display: inline-block;
+      width: 35%;
+      font-family: $fontTitle;
+      font-size: 20px;
+      text-align: center;
+      margin: 5%;
+      vertical-align: middle;
+      color: $hoverColor;
+    }
+    .event-desc {
+      display: inline-block;
+      width: 55%;
+      font-family: $fontContent;
+      color: $stratSecondBackgroundColor;
+      font-size: 28px;
+      text-align: center;
+      vertical-align: middle;
+    }
   }
 }
 #form-strat {
@@ -332,7 +368,7 @@ footer {
     background: $stratSecondBackgroundColor;
   }
 
-  h1 {
+  h1, h2 {
     font-family: $fontContent;
     font-weight: normal;
     font-size: 34px;

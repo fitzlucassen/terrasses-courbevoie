@@ -1,7 +1,7 @@
-<title>Salle événementiel et restaurant - Les Terrasses de Courbevoie</title>
-<meta name="Description" content="">
-<meta property="og:title" content="Salle événementiel et restaurant - Les Terrasses de Courbevoie" />
-<meta property="og:description" content="" />
+<title>Salle de réception près de Paris « Les Terrasses de Courbeboie »</title>
+<meta name="Description" content="Les Terrasses de Courbevoie » est une salle de réception pour événements d’entreprise, séminaires et cocktails près de Paris. Louer et privatiser une salle pour événements privés proche du quartier d’affaire de la Défense.">
+<meta property="og:title" content="Salle de réception près de Paris « Les Terrasses de Courbeboie »" />
+<meta property="og:description" content="Les Terrasses de Courbevoie » est une salle de réception pour événements d’entreprise, séminaires et cocktails près de Paris. Louer et privatiser une salle pour événements privés proche du quartier d’affaire de la Défense." />
 
 <?php
 // inclure ci-dessus les balises à inclure dans la balise <head> du layout
@@ -51,7 +51,7 @@ $this->beginSection();
 	<div id="carousel-strat" class="strat">
 		<div class="carousel-center-element">
 			<img src="/<?php echo __image_directory__; ?>/terrasse.png" class="logo-presentation" />
-			<h1>Salle évenementielle et restaurant à Courbevoie</h1>
+			<h1>Une salle de réception privatisable<br/>proche de Paris et de la Défense</h1>
 		</div>
 	</div>
 
@@ -66,10 +66,20 @@ $this->beginSection();
 			</div>
 			<div class="presentation-container">
 				<h2 class="section-title">Présentation</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nec tortor non blandit.
-					Suspendisse pellentesque maximus justo aliquet congue. Morbi et sapien quis lectus vestibulum faucibus.
-					Phasellus metus risus, pretium imperdiet dolor in, porttitor ultricies lacus. Etiam mollis libero ligula, at pulvinar urna ultricies id.
-					Nulla condimentum posuere finibus. Sed leo dui, pulvinar fermentum felis non, porttitor malesuada arcu</p>
+				<p>
+					La location d’une salle événementielle est l’une des 3 composantes
+					essentielles d’une réception réussie. Un excellent traiteur et une organisation
+					d’événement impeccable exigent une adresse inédite pour que la magie
+					opère !<br/><br/>
+					Cet espace consacré à vos cocktails, diners de gala, soirées d’entreprise,
+					buffets et déjeuners, ce sont « Les Terrasses de Courbevoie ». Plus de 400m²
+					d’espace privatisable, où la clarté s’invite à travers les immenses baies vitrées
+					et une vaste terrasse ensoleillée, n’attendent que vos convives !<br/><br/>
+					Vous souhaitiez louer et privatiser une salle pour organiser un événement
+					d’entreprise ou une réception privée proche du quartier d’affaire de la
+					Défense et de Paris ? Avec son caractère atypique et ses espaces modulables,
+					la salle « Les Terrasses de Courbevoie » va surprendre vos invités !
+				</p>
 
 				<p class="more"><a href="/qui-sommes-nous.html">> En savoir +</a></p>
 
@@ -80,18 +90,36 @@ $this->beginSection();
 	<div id="place-strat" class="strat">
 		<div class="band">
 			<div class="linea"></div>
-			<h2 class="section-title">Privatisation : la salle</h2>
+			<h2 class="section-title">Une salle événementielle haut de gamme à Courbevoie</h2>
 			<br />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nec tortor non blandit.
-				Suspendisse pellentesque maximus justo aliquet congue. Morbi et sapien quis lectus vestibulum faucibus.
-				Phasellus metus risus, pretium imperdiet dolor in, porttitor ultricies lacus. Etiam mollis libero ligula, at pulvinar urna ultricies id.</p>
 			<br />
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nec tortor non blandit.
-				Suspendisse pellentesque maximus justo aliquet congue. Morbi et sapien quis lectus vestibulum faucibus.
-				Phasellus metus risus, pretium imperdiet dolor in, porttitor ultricies lacus. Etiam mollis libero ligula, at pulvinar urna ultricies id.</p>
+			<p>
+				Privatiser « Les Terrasses de Courbevoie », c’est dénicher un lieu exclusif qui valide tous les critères
+				de sélection pour vos événements de moyenne et grande envergure.<br/>
+				Au fil des saisons, « Les Terrasses de Courbevoie » vibre au rythme des soirées grand public et de prestigieux événements
+				privés ou professionnels.
+			</p>
 
 			<br />
+			<br />
 			<p class="button"><a href="#form-strat">Louer la salle</a></p>
+		</div>
+	</div>
+
+	<div id="event-strat" class="strat">
+		<div class="strat-container" style="position: relative;">
+			<div class="linea"></div>	
+			<h2 class="section-title" style="text-align:center;">Les évènements à venir</h2>
+
+			<div class="event-container">
+				<div class="event-card">
+					<h4 class="event-title">Mercredi<br/>22<br/>avril 2020<br/>20h30</h4><p class="event-desc"><i>Zazie</i></p>
+				</div><div class="event-card">
+					<h4 class="event-title">Samedi<br/>31<br/>octobre 2020<br/>20h30</h4><p class="event-desc"><i>Serge Lama</i></p>
+				</div><div class="event-card">
+					<h4 class="event-title">Samedi<br/>19<br/>décembre 2020<br/>20h30</h4><p class="event-desc"><i>Michael Gregorio</i></p>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -136,8 +164,17 @@ $this->beginSection();
 				<img src="/<?php echo __image_directory__; ?>/terrasses_5bis_27.png" alt="" class="second-img"/>
 			</div>
 			<div class="linea" style="margin-bottom: 2%;"></div>
-			<h2 class="section-title" style="text-align:center;">Réservation</h2>
+			<h2 class="section-title" style="text-align:center;margin-bottom:2%;">Réservation</h2>
 
+			<p style="text-align:center;">
+				Organiser un repas d’affaires, une soirée d’entreprise ou une réception privée est une excellente
+				occasion pour véhiculer des valeurs, transmettre des émotions et marquer les esprits.<br/>
+				Louer et privatiser Les Terrasses, c’est offrir ce pur moment de plaisir gourmand dans un cadre inédit !
+			</p>
+			<br/>
+			<br/>
+			<p style="text-align:center;">Besoin d’en savoir davantage ? Remplissez le formulaire ci-dessous, nous sommes à votre disposition.</p>
+			
 			<form action="" method="post">
 				<div class="left-column fix-size">
 					<div class="civility">
@@ -156,7 +193,7 @@ $this->beginSection();
 				</div>
 				<br />
 				<br />
-				<p style="text-align: center;">Je vous contact pour une date en particulier...</p>
+				<p style="text-align: center;">Avez-vous un projet événementiel en vue ?</p>
 				<br />
 				<div class="left-column">
 					<input type="text" name="eventDate" id="eventDate" placeholder="Date de la réservation" />
@@ -183,9 +220,17 @@ $this->beginSection();
 					<div class="card-img">
 						<img src="/<?php echo __image_directory__; ?>/terrasses_5bis_31.png" alt="Illustration de cocktail cocktail" />
 					</div><div class="card-text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nec tortor non blandit.
-							Suspendisse pellentesque maximus justo aliquet congue. Morbi et sapien quis lectus vestibulum faucibus.
-							Phasellus metus risus, pretium imperdiet dolor in, porttitor ultricies lacus. Etiam mollis libero ligula, at pulvinar urna ultricies id.</p>
+						<p>
+							Qu’attendez-vous d’un bon traiteur ? Une
+							gastronomie aussi exquise que créative ?
+							Laissez la brigade de Cocktail Cocktail ravir
+							gourmands et gourmets.<br/>
+							Traiteur à proximité de Paris et de la Défense,
+							depuis 1996, la maison régale sa clientèle de
+							petits déjeuners appétissants, de cocktails
+							étonnants, de savoureux plateaux-repas et de
+							délicieux buffets chauds ou froids.
+						</p>
 
 						<p class="more"><a href="/qui-sommes-nous.html">> En savoir +</a></p>
 					</div>
@@ -195,9 +240,16 @@ $this->beginSection();
 				<br/>
 				<div class="card metstendances">
 					<div class="card-text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis nec tortor non blandit.
-							Suspendisse pellentesque maximus justo aliquet congue. Morbi et sapien quis lectus vestibulum faucibus.
-							Phasellus metus risus, pretium imperdiet dolor in, porttitor ultricies lacus. Etiam mollis libero ligula, at pulvinar urna ultricies id.</p>
+						<p>
+							Vous organisez un événement d’entreprise ou
+							une réception privée ?<br/>
+							Laissez-nous vous suggérer le florilège de
+							services sur-mesure de Mets Tendances.<br/>
+							La marque du groupe Cocktail Cocktail, Mets
+							Tendances, est entièrement dédiée à
+							l’organisation de réceptions et d’événements
+							haut de gamme…
+						</p>
 
 						<p class="more"><a href="/qui-sommes-nous.html">> En savoir +</a></p>
 					</div><div class="card-img">

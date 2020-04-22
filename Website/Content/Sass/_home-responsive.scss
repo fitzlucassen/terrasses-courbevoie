@@ -46,6 +46,23 @@ header .hamburger, #mobile-nav {
         cursor: pointer;
         color: $stratSecondBackgroundColor;
     }
+    
+    .card .card-img{
+        height: auto;
+    }
+    #place-strat {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        min-height: auto;
+        height: auto;
+
+        .band {
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 5%;
+            position: relative;
+        }
+    }
 }
 @media screen and (max-width:800px){
     #presentation-strat {
@@ -59,18 +76,6 @@ header .hamburger, #mobile-nav {
     #presentation-strat .presentation-container {
         display: block;
         width: 90%;
-    }
-    #place-strat {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        min-height: auto;
-        height: auto;
-
-        .band {
-            width: 90%;
-            margin: 0 auto;
-            padding-bottom: 5%;
-        }
     } 
     .form-decoration {
         display: none;
@@ -90,7 +95,16 @@ header .hamburger, #mobile-nav {
     footer .footer-container {
         width: 80%;
     }
+    #about-container {
+        .right-column img, .left-column img{
+            display: none;
+        }
+        .left-column, .right-column{
+            width: 100%;
+        }
+    }
 }
+
 @media screen and (max-width:500px){
     #menu-strat ul li{
         padding: 0 10px;
@@ -113,6 +127,10 @@ header .hamburger, #mobile-nav {
         .card-img {
             width: 100%;
             display: block;
+
+            img{
+                transform: translateY(0);
+            }
         }
         .card-text {
             width: 90%;
