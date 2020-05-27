@@ -67,18 +67,19 @@ $this->beginSection();
 			<div class="presentation-container">
 				<h2 class="section-title">Présentation</h2>
 				<p>
-					La location d’une salle événementielle est l’une des 3 composantes
-					essentielles d’une réception réussie. Un excellent traiteur et une organisation
-					d’événement impeccable exigent une adresse inédite pour que la magie
-					opère !<br/><br/>
-					Cet espace consacré à vos cocktails, diners de gala, soirées d’entreprise,
-					buffets et déjeuners, ce sont « Les Terrasses de Courbevoie ». Plus de 400m²
-					d’espace privatisable, où la clarté s’invite à travers les immenses baies vitrées
-					et une vaste terrasse ensoleillée, n’attendent que vos convives !<br/><br/>
-					Vous souhaitiez louer et privatiser une salle pour organiser un événement
-					d’entreprise ou une réception privée proche du quartier d’affaire de la
-					Défense et de Paris ? Avec son caractère atypique et ses espaces modulables,
-					la salle « Les Terrasses de Courbevoie » va surprendre vos invités !
+					Si l’on vous parle d’un lieu unique ? De 400 m² d’espace à privatiser, avec des espaces d’une
+					convivialité à votre image qui s’étire jusqu’aux terrasses ensoleillées ? Bienvenue à l’établissement
+					« Les Terrasses de Courbevoie », la salle de location du groupe <u>Cocktail Cocktail</u> !<br/><br/>
+					À votre recherche de location de salle de réception pour organiser un événement, cet espace valide
+					tous les critères d’exigence. Au cœur du centre événementiel de Courbevoie, à proximité de Paris et
+					du quartier d’affaire de la Défense, le restaurant « Les Terrasses de Courbevoie » étonne par son
+					style rétro moderne subtil. Baignés de lumière, les espaces intérieurs conjuguent élégance et
+					raffinement. Quant aux terrasses extérieures, elles délivrent tout leur potentiel estival. L’art se
+					décline tout en nuance, des tableaux à néons aux instruments à cordes. Une ambiance agréable qui
+					n’attend plus que l’âme de votre événement pour vibrer avec force dans une scénographie dédiée au
+					ravissement des yeux et des papilles !<br/><br/>
+					Séduits par « Les Terrasses de Courbevoie » ? Confiez l’élaboration de menus savoureux à <u>Mets
+					Tendances</u>, la marque traiteur du groupe Cocktail Cocktail.
 				</p>
 
 				<p class="more"><a href="/qui-sommes-nous.html">> En savoir +</a></p>
