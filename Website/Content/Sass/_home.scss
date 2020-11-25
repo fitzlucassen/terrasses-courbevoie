@@ -143,6 +143,11 @@ footer {
     padding: 5%;
     z-index: 100;
     width: 39%;
+
+    p a.link {
+      color: black;
+      text-decoration: underline;
+    }
   }
 
   .presentation-image {
@@ -225,17 +230,17 @@ footer {
 #event-strat {
   background: $stratSecondBackgroundColor;
 
-  .event-card{
+  .event-card {
     display: inline-block;
     width: calc(31% - 20px);
     margin: 2% 1%;
     background: $menuFooterColor;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     padding: 10px;
     border-radius: 3px;
     vertical-align: middle;
 
-    .event-title{
+    .event-title {
       display: inline-block;
       width: 35%;
       font-family: $fontTitle;
@@ -368,7 +373,8 @@ footer {
     background: $stratSecondBackgroundColor;
   }
 
-  h1, h2 {
+  h1,
+  h2 {
     font-family: $fontContent;
     font-weight: normal;
     font-size: 34px;

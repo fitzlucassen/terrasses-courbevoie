@@ -69,7 +69,7 @@ $this->beginSection();
 				<p>
 					Si l’on vous parle d’un lieu unique ? De 400 m² d’espace à privatiser, avec des espaces d’une
 					convivialité à votre image qui s’étire jusqu’aux terrasses ensoleillées ? Bienvenue à l’établissement
-					« Les Terrasses de Courbevoie », la salle de location du groupe <u>Cocktail Cocktail</u> !<br/><br/>
+					« Les Terrasses de Courbevoie », la salle de location du groupe <a href="http://cocktailcocktail.thibaultdulon.com/" target="_blank" class="link">Cocktail Cocktail</a> !<br/><br/>
 					À votre recherche de location de salle de réception pour organiser un événement, cet espace valide
 					tous les critères d’exigence. Au cœur du centre événementiel de Courbevoie, à proximité de Paris et
 					du quartier d’affaire de la Défense, le restaurant « Les Terrasses de Courbevoie » étonne par son
