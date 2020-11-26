@@ -78,8 +78,8 @@ $this->beginSection();
 					décline tout en nuance, des tableaux à néons aux instruments à cordes. Une ambiance agréable qui
 					n’attend plus que l’âme de votre événement pour vibrer avec force dans une scénographie dédiée au
 					ravissement des yeux et des papilles !<br/><br/>
-					Séduits par « Les Terrasses de Courbevoie » ? Confiez l’élaboration de menus savoureux à <u>Mets
-					Tendances</u>, la marque traiteur du groupe Cocktail Cocktail.
+					Séduits par « Les Terrasses de Courbevoie » ? Confiez l’élaboration de menus savoureux à <a href="http://metstendances.thibaultdulon.com/" target="_blank" class="link">Mets
+					Tendances</a>, la marque traiteur du groupe Cocktail Cocktail.
 				</p>
 
 				<p class="more"><a href="/qui-sommes-nous.html">> En savoir +</a></p>
