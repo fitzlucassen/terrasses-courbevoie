@@ -1,6 +1,18 @@
 $(document).ready(function () {
     $('#firstname,#lastname').hide();
 
+    $('.popup-container').click(function (event) {
+        if ($(event.target).hasClass("popup-container")) {
+            $(".popup-container").fadeOut('slow');
+            return true;
+        }
+    });
+
+    $('#close-popup').click(function(){
+        $(".popup-container").fadeOut('slow');
+        return false;
+    });
+
     $('#isCompany2,#isCompany3').click(function () {
         $('#companyName, #companySiret').hide();
         $('#firstname,#lastname').show();

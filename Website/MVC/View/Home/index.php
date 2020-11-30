@@ -69,7 +69,7 @@ $this->beginSection();
 				<p>
 					Si l’on vous parle d’un lieu unique ? De 400 m² d’espace à privatiser, avec des espaces d’une
 					convivialité à votre image qui s’étire jusqu’aux terrasses ensoleillées ? Bienvenue à l’établissement
-					« Les Terrasses de Courbevoie », la salle de location du groupe <a href="http://cocktailcocktail.thibaultdulon.com/" target="_blank" class="link">Cocktail Cocktail</a> !<br/><br/>
+					« Les Terrasses de Courbevoie », la salle de location du groupe <a href="https://www.cocktailcocktail.com/" target="_blank" class="link">Cocktail Cocktail</a> !<br/><br/>
 					À votre recherche de location de salle de réception pour organiser un événement, cet espace valide
 					tous les critères d’exigence. Au cœur du centre événementiel de Courbevoie, à proximité de Paris et
 					du quartier d’affaire de la Défense, le restaurant « Les Terrasses de Courbevoie » étonne par son
@@ -78,7 +78,7 @@ $this->beginSection();
 					décline tout en nuance, des tableaux à néons aux instruments à cordes. Une ambiance agréable qui
 					n’attend plus que l’âme de votre événement pour vibrer avec force dans une scénographie dédiée au
 					ravissement des yeux et des papilles !<br/><br/>
-					Séduits par « Les Terrasses de Courbevoie » ? Confiez l’élaboration de menus savoureux à <a href="http://metstendances.thibaultdulon.com/" target="_blank" class="link">Mets
+					Séduits par « Les Terrasses de Courbevoie » ? Confiez l’élaboration de menus savoureux à <a href="https://www.mets-tendances.com/" target="_blank" class="link">Mets
 					Tendances</a>, la marque traiteur du groupe Cocktail Cocktail.
 				</p>
 
@@ -261,6 +261,39 @@ $this->beginSection();
 			</div>
 		</div>
 	</div>
+
+	<div class="popup-container" style="display:block;z-index: 999;">
+		<div class="popup" style="background:#F8F2F2;">
+			<h3 style="font-size:36px;font-family:'lustriaregular';font-weight: normal;">Les Terrasses de Courbevoie changent de peau</h3>
+			<h4>Découvrez ou re-découvrez l'offre complète du groupe Cocktail Cocktail</h4>
+			<br />
+			<br />
+			<p style="background:#1d064b;padding: 5%;">
+				<a href="https://www.cocktailcocktail.com" target="_blank" class="popup-link-group">
+					<img src="/<?php echo __image_directory__; ?>/metstendances_4_45.png" alt="Logo Cocktail Cocktail" height="60px"/>
+					<br/><br/><br/>
+					<span><b style="color:#ffed0a;">Traiteur pour entreprise et particulier</b><br><br/>Traiteur événementiel pour organiser des réceptions Paris et Région parisienne</span>
+					<br/><br/>
+					<span class="button" style="background:#fff;color:#000;">Découvrir</span>
+				</a>
+				<a href="#" target="_blank" id="close-popup" class="popup-link-group">
+					<img src="/<?php echo __image_directory__; ?>/metstendances_4_43.png" alt="Logo les terrasses de Courbevoie" height="60px"/>
+					<br/><br/><br/>
+					<span><b style="color:#ffed0a;">Salle de réception & Restaurant</b><br><br/>Salle de réception près de Paris « Les Terrasses de Courbeboie »</span>
+					<br/><br/>
+					<span class="button" style="background:#fff;color:#000;">Fermer et Découvrir</span>
+				</a>
+				<a href="https://www.mets-tendances.com" target="_blank" class="popup-link-group">
+					<img src="/<?php echo __image_directory__; ?>/metstendances.png" alt="Logo Mets Tendances" height="60px"/>
+					<br/><br/><br/>
+					<span><b style="color:#ffed0a;">Réception sur mesures</b><br><br/>Organisateur événementiel qui met en scène vos événements à Paris et en région parisienne</span>
+					<br/><br/>
+					<span class="button" style="background:#fff;color:#000;">Découvrir</span>
+				</a>
+			</p>
+		</div>
+	</div>
+
 	<?php
 	include(__partial_directory__ . "/footer.php");
 	?>

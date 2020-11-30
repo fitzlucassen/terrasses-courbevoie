@@ -103,6 +103,16 @@ header .hamburger, #mobile-nav {
             width: 100%;
         }
     }
+    
+    .popup {
+        width: 400px !important;
+
+        a.popup-link-group {
+            display: block;
+            width: 100%;
+            margin-bottom: 10%;
+        }
+    }
 }
 
 @media screen and (max-width:500px){
@@ -148,5 +158,8 @@ header .hamburger, #mobile-nav {
         display: block;
         width: 100%;
         margin: 5% auto !important;
+    }
+    .popup {
+        width: 300px !important;
     }
 }

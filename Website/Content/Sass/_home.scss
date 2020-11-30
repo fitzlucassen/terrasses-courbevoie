@@ -411,3 +411,60 @@ footer {
     }
   }
 }
+
+.popup-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: auto;
+
+  .popup {
+    background: white;
+    width: 800px;
+    border-radius: 3px;
+    margin: 10% auto;
+    text-align: center;
+    padding: 3%;
+
+    h3 {
+      font-size: 24px;
+      padding-bottom: 5%;
+    }
+
+    li {
+      padding: 10px;
+      font-weight: normal;
+      font-family: $fontContent !important;
+
+      span,
+      input {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: $fontContent !important;
+      }
+      input {
+        width: 30px;
+        padding: 5px;
+      }
+
+      .remove-line-cart {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+a.popup-link-group {
+  display: inline-block;
+  width: 30%;
+
+  span {
+    color: white;
+    font-family: "lustriaregular" !important;
+    font-weight: normal;
+  }
+}

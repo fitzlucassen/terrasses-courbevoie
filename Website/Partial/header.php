@@ -9,9 +9,9 @@
     <div class="hamburger"><i class="fas fa-bars"></i></div>
 
     <div id="other-logo" class="logo right">
-        <a href="https://www.cocktailcocktail.fr" target="_blank"><img src="/<?php echo __image_directory__; ?>/metstendances_4_05.png" alt="logo cocktail cocktail" /></a>
+        <a href="https://www.cocktailcocktail.com" target="_blank"><img src="/<?php echo __image_directory__; ?>/metstendances_4_05.png" alt="logo cocktail cocktail" /></a>
         <span class="separator"></span>
-        <a href="https://www.mets-tendances.fr" target="_blank"><img src="/<?php echo __image_directory__; ?>/metstendances_4_01.png" alt="logo mets tendances" /></a>
+        <a href="https://www.mets-tendances.com" target="_blank"><img src="/<?php echo __image_directory__; ?>/metstendances_4_01.png" alt="logo mets tendances" /></a>
     </div>
 </header>
 
