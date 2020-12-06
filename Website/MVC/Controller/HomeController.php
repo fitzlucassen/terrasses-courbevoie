@@ -43,7 +43,23 @@ class HomeController extends Controller
 				$data["eventTime"] = isset($data["eventTime"]) && !empty($data["eventTime"]) ? $data["eventTime"] : null;
 				$data["people"] = isset($data["people"]) && !empty($data["people"]) ? (int) $data["people"] : null;
 				$requestRepository = $this->_repositoryManager->get('Request');
-				$requestRepository->add($data);
+				$requestId = $requestRepository->add($data);
+
+				$Email = new Helper\Email();
+
+				// On configure l'email
+				$Email->from("contact@lesterrassesdecourbevoie.com")
+					->to("contact@lesterrassesdecourbevoie.com")
+					->subject("Nouveau message depuis www.lesterrassesdecourbevoie.com")
+					->fromName("Les Terrasses De Courbevoie")
+					->layout("email")
+					->view("default")
+					->vars(array(
+						"requestId" => $requestId
+					));
+
+				// Puis on construit le header et on l'envoi
+				$Email->buildHeaders()->send();
 
 				$Model->_message = "Votre message a été envoyé avec succès";
 			} else {

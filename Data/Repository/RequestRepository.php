@@ -49,7 +49,9 @@ class RequestRepository extends RepositoryBase\RequestRepositoryBase
 			$array['people'] = $properties["people"];
 		try {
 			$query = $this->_queryBuilder->insert("request", $array)->getQuery();
-			return $this->_pdo->Query($query);
+			$result = $this->_pdo->Query($query);
+
+			return $this->_pdo->lastInsertId();
 		} catch (PDOException $e) {
 			print $e->getMessage();
 		}
