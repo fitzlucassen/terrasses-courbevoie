@@ -46,7 +46,7 @@ $this->beginSection();
     <div id="team-strat" class="strat">
         <div class="strat-container">
             <div class="left-column">
-                <img src="/<?php echo __image_directory__; ?>/terrasses_5bis_17.png" alt="Montage de table Mets-Tendances" />
+                <img src="/<?php echo __image_directory__; ?>/image49.jpg" alt="Montage de table Mets-Tendances" />
             </div><div class="right-column">
                 <h2>Une salle événementielle pour vos réceptions privées</h2>
                 <p>
@@ -95,7 +95,7 @@ $this->beginSection();
                     et ses 3 entités sont à votre service !
                 </p>
             </div><div class="right-column">
-                <img src="/<?php echo __image_directory__; ?>/terrasses_5bis_17.png" alt="Montage de table Mets-Tendances" />
+                <img src="/<?php echo __image_directory__; ?>/image48.jpg" alt="Montage de table Mets-Tendances" />
             </div>
         </div>
     </div>

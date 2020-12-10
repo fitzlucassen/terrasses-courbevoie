@@ -19,15 +19,17 @@
 		private $_phoneNumber;
 		private $_email;
 		private $_address;
+		private $_zipcode;
 		private $_city;
 		private $_isActive;
 		private $_fromCompany;
+		private $_password;
 		private $_creationDate;
 		private $_queryBuilder;
 
-		public function __construct($id = '', $isCompany = '', $companyName = '', $companySiret = '', $firstname = '', $lastname = '', $phoneNumber = '', $email = '', $address = '', $city = '', $isActive = '', $fromCompany = '', $creationDate = ''){
+		public function __construct($id = '', $isCompany = '', $companyName = '', $companySiret = '', $firstname = '', $lastname = '', $phoneNumber = '', $email = '', $address = '', $zipcode = '', $city = '', $isActive = '', $fromCompany = '', $password = '', $creationDate = ''){
 			$this->_queryBuilder = new Core\QueryBuilder(true);
-			$this->fillObject(array("id" => $id, "isCompany" => $isCompany, "companyName" => $companyName, "companySiret" => $companySiret, "firstname" => $firstname, "lastname" => $lastname, "phoneNumber" => $phoneNumber, "email" => $email, "address" => $address, "city" => $city, "isActive" => $isActive, "fromCompany" => $fromCompany, "creationDate" => $creationDate));
+			$this->fillObject(array("id" => $id, "isCompany" => $isCompany, "companyName" => $companyName, "companySiret" => $companySiret, "firstname" => $firstname, "lastname" => $lastname, "phoneNumber" => $phoneNumber, "email" => $email, "address" => $address, "zipcode" => $zipcode, "city" => $city, "isActive" => $isActive, "fromCompany" => $fromCompany, "password" => $password, "creationDate" => $creationDate));
 		}
 
 		/***********
@@ -60,6 +62,9 @@
 		public function getAddress() {
 			return $this->_address;
 		}
+		public function getZipcode() {
+			return $this->_zipcode;
+		}
 		public function getCity() {
 			return $this->_city;
 		}
@@ -68,6 +73,9 @@
 		}
 		public function getFromCompany() {
 			return $this->_fromCompany;
+		}
+		public function getPassword() {
+			return $this->_password;
 		}
 		public function getCreationDate() {
 			return $this->_creationDate;
@@ -95,12 +103,16 @@
 				$this->_email = $properties["email"];
 			if(!empty($properties["address"]))
 				$this->_address = $properties["address"];
+			if(!empty($properties["zipcode"]))
+				$this->_zipcode = $properties["zipcode"];
 			if(!empty($properties["city"]))
 				$this->_city = $properties["city"];
 			if(!empty($properties["isActive"]))
 				$this->_isActive = $properties["isActive"];
 			if(!empty($properties["fromCompany"]))
 				$this->_fromCompany = $properties["fromCompany"];
+			if(!empty($properties["password"]))
+				$this->_password = $properties["password"];
 			if(!empty($properties["creationDate"]))
 				$this->_creationDate = $properties["creationDate"];
 		}

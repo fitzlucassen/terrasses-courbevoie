@@ -9,19 +9,18 @@
 	use fitzlucassen\FLFramework\Library\Core;
 	use fitzlucassen\FLFramework\Data\Entity;
 
-	class CocktailcocktailmenuBase  {
+	class NewsBase  {
 		private $_id;
-		private $_id_Category;
-		private $_name;
-		private $_price;
+		private $_title;
+		private $_description;
 		private $_image_url;
-		private $_active;
 		private $_creationDate;
+		private $_fromCompany;
 		private $_queryBuilder;
 
-		public function __construct($id = '', $id_Category = '', $name = '', $price = '', $image_url = '', $active = '', $creationDate = ''){
+		public function __construct($id = '', $title = '', $description = '', $image_url = '', $creationDate = '', $fromCompany = ''){
 			$this->_queryBuilder = new Core\QueryBuilder(true);
-			$this->fillObject(array("id" => $id, "id_Category" => $id_Category, "name" => $name, "price" => $price, "image_url" => $image_url, "active" => $active, "creationDate" => $creationDate));
+			$this->fillObject(array("id" => $id, "title" => $title, "description" => $description, "image_url" => $image_url, "creationDate" => $creationDate, "fromCompany" => $fromCompany));
 		}
 
 		/***********
@@ -30,23 +29,20 @@
 		public function getId() {
 			return $this->_id;
 		}
-		public function getId_Category() {
-			return $this->_id_Category;
+		public function getTitle() {
+			return $this->_title;
 		}
-		public function getName() {
-			return $this->_name;
-		}
-		public function getPrice() {
-			return $this->_price;
+		public function getDescription() {
+			return $this->_description;
 		}
 		public function getImage_url() {
 			return $this->_image_url;
 		}
-		public function getActive() {
-			return $this->_active;
-		}
 		public function getCreationDate() {
 			return $this->_creationDate;
+		}
+		public function getFromCompany() {
+			return $this->_fromCompany;
 		}
 		/*******
 		 * END *
@@ -55,17 +51,15 @@
 		public function fillObject($properties) {
 			if(!empty($properties["id"]))
 				$this->_id = $properties["id"];
-			if(!empty($properties["id_Category"]))
-				$this->_id_Category = $properties["id_Category"];
-			if(!empty($properties["name"]))
-				$this->_name = $properties["name"];
-			if(!empty($properties["price"]))
-				$this->_price = $properties["price"];
+			if(!empty($properties["title"]))
+				$this->_title = $properties["title"];
+			if(!empty($properties["description"]))
+				$this->_description = $properties["description"];
 			if(!empty($properties["image_url"]))
 				$this->_image_url = $properties["image_url"];
-			if(!empty($properties["active"]))
-				$this->_active = $properties["active"];
 			if(!empty($properties["creationDate"]))
 				$this->_creationDate = $properties["creationDate"];
+			if(!empty($properties["fromCompany"]))
+				$this->_fromCompany = $properties["fromCompany"];
 		}
 	}
