@@ -18,7 +18,7 @@
 		<br />
 
 		<p style="font-size: 12px;letter-spacing:2px;">7 BOULEVARD ARISTIDE BRIAND - 92 400 COURBEVOIE</p>
-		<p class="mentions"><a href="/mentions-legales.html">Mentions légales</a></p>
+		<p class="mentions"><a href="/mentions-legales.html">Mentions légales</a><span style="display:inline-block;padding: 0 5px;">-</span><a href="https://www.thibaultdulon.com/fr/" target="_blank">Fait avec ❤ par Thibault Dulon</a></p>
 	</div>
 </footer>
 
