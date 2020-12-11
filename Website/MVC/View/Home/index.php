@@ -113,13 +113,13 @@ $this->beginSection();
 			<h2 class="section-title" style="text-align:center;">Les évènements à venir</h2>
 
 			<div class="event-container">
+				<?php 
+					foreach($this->Model->_news as $news) {
+				?>
 				<div class="event-card">
-					<h4 class="event-title">Mercredi<br/>22<br/>avril 2020<br/>20h30</h4><p class="event-desc"><i>Zazie</i></p>
-				</div><div class="event-card">
-					<h4 class="event-title">Samedi<br/>31<br/>octobre 2020<br/>20h30</h4><p class="event-desc"><i>Serge Lama</i></p>
-				</div><div class="event-card">
-					<h4 class="event-title">Samedi<br/>19<br/>décembre 2020<br/>20h30</h4><p class="event-desc"><i>Michael Gregorio</i></p>
+					<h4 class="event-title"><?php echo $news->getDescription(); ?></h4><p class="event-desc"><i><?php echo $news->getTitle(); ?></i></p>
 				</div>
+				<?php } ?>
 			</div>
 		</div>
 	</div>

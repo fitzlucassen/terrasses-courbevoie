@@ -16,4 +16,28 @@
 			parent::__construct($pdo, $lang);
 		}
 
+		public function getLastThreeNews() {
+			$query = $this->_queryBuilder
+				->select()
+				->from(array("news"))
+				->where(array(array("link" => "", "left" => "fromCompany", "operator" => "=", "right" => "Les Terrasses de Courbevoie")))
+				->orderBy(['id DESC'])
+				->limit(3)
+				->getQuery();
+
+			try {
+				$properties = $this->_pdoHelper->selectTable($query);
+				$array = array();
+				foreach ($properties as $object){
+					$o = new Entity\News();
+					$o->fillObject($object);
+					$array[] = $o;
+				}
+				return $array;
+			}
+			catch(\PDOException $e){
+				print $e->getMessage();
+			}
+			return array();
+		}
 	}

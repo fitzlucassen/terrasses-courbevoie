@@ -28,6 +28,9 @@ class HomeController extends Controller
 		$Model = new Model\HomeModel($this->_repositoryManager);
 		$Model->_categories = Repository\LesterrassescategoriesRepository::getAll($this->_repositoryManager->getConnection());
 		$Model->_meals = Repository\LesterrassesmealRepository::getAll($this->_repositoryManager->getConnection());
+		
+		$newsRepository = $this->_repositoryManager->get('News');
+		$Model->_news = $newsRepository->getLastThreeNews();
 
 		if (Core\Request::isPost() || Core\Request::isPost()) {
 			// It's a form validation

@@ -115,6 +115,8 @@
 
 		public function limit($limit){
 			$this->_query .= self::LIMIT . ' ' . $limit;
+
+			return $this->_returnObject ? $this : $string;
 		}
 		
 		/**
